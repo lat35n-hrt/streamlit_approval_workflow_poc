@@ -32,7 +32,8 @@ history | tail -n 50
 
 
 ## Screenshots
-
+This screen demonstrates a minimal approval workflow:
+records are reviewed, approved via API, and immediately removed from the staging list.
 
 ![Approval](img/approval.png)
 
