@@ -27,7 +27,5 @@ touch api_mock.py
 touch config.yaml
 touch README.md
 streamlit run app.py
-mkdir .streamlit
-touch .streamlit/config.toml
 history | tail -n 50
 ```
