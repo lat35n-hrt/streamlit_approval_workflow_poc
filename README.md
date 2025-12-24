@@ -29,3 +29,11 @@ touch README.md
 streamlit run app.py
 history | tail -n 50
 ```
+
+
+## Screenshots
+
+
+![Approval](img/approval.png)
+
+![Approved](img/approved.png)
