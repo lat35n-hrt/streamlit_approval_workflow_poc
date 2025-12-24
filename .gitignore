@@ -1,0 +1,30 @@
+# .gitignore
+
+# terminal log
+devlog_terminal.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+
+# Logs / local data
+*.log
+data/
+tmp/
+
+# OS
+.DS_Store
