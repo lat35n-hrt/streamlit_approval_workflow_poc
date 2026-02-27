@@ -1,5 +1,4 @@
 # app.py
-# app.py
 import streamlit as st
 from api_mock import fetch_records, fetch_detail, approve_record, fetch_audit
 
@@ -50,6 +49,6 @@ st.divider()
 st.subheader("Audit log (latest)")
 audit = fetch_audit(limit=20)
 if audit:
-    st.dataframe(audit, use_container_width=True)
+    st.dataframe(audit, width="stretch")
 else:
     st.caption("No audit events yet.")
